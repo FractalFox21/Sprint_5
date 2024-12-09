@@ -15,7 +15,7 @@ class Locators:
     REG_PASSWORD = (By.XPATH, "//label[text()='Пароль']/following-sibling::input")  #Поле ввода пароля при регистрации
     FIN_REG = (By.XPATH, "//button[text()='Зарегистрироваться']") #Кнопка отправки заявки на регистрацию
     REG_ERROR = (By.XPATH, "//p[contains(text(),'Некорректный пароль')]")  # Ошибка некорректного пароля
-    ALREADY_REG_INPUT = (By.XPATH, './/a[contains(text(), "Войти")]') #кнопка "войти" на странице регистрации
+    ALREADY_REG_INPUT = (By.XPATH, ".//a[contains(text(),'Войти')]") #кнопка "войти" на странице регистрации
 
     #авторизация
     LOGIN = (By.XPATH, "//label[text()='Email']/following-sibling::input")  #Поле ввода email

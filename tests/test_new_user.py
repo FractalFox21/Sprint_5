@@ -1,4 +1,3 @@
-import time
 from faker import Faker
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
