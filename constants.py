@@ -1,6 +1,7 @@
 class Constants:
     NAME = 'test'   #тестовое имя для регистрации
-    REG_PASSWORD = 'sqe23fd2f'
+    REG_PASS = 'sqe23fd2f'
+    REG_SHORT_PASS = '12d'
     EMAIL = 'kravchenko_16@gmail.com'   #Email для авторизованного теста страниц
     PASSWORD = 'Mesto2101'    # Пароль для авторизованного теста страниц
 
